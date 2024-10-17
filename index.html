@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fifth Card Predictor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Fifth Card Predictor</h1>
+        <div class="card-inputs">
+            <div class="card">
+                <label for="card1">Card 1:</label>
+                <select id="card1" class="card-value">
+                    <option value="1">Ace</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">Jack</option>
+                    <option value="12">Queen</option>
+                    <option value="13">King</option>
+                </select>
+                <select id="suit1" class="card-suit">
+                    <option value="hearts">♥</option>
+                    <option value="diamonds">♦</option>
+                    <option value="clubs">♣</option>
+                    <option value="spades">♠</option>
+                </select>
+            </div>
+            <div class="card">
+                <label for="card2">Card 2:</label>
+                <select id="card2" class="card-value">
+                    <option value="1">Ace</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">Jack</option>
+                    <option value="12">Queen</option>
+                    <option value="13">King</option>
+                </select>
+                <select id="suit2" class="card-suit">
+                    <option value="hearts">♥</option>
+                    <option value="diamonds">♦</option>
+                    <option value="clubs">♣</option>
+                    <option value="spades">♠</option>
+                </select>
+            </div>
+            <div class="card">
+                <label for="card3">Card 3:</label>
+                <select id="card3" class="card-value">
+                    <option value="1">Ace</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">Jack</option>
+                    <option value="12">Queen</option>
+                    <option value="13">King</option>
+                </select>
+                <select id="suit3" class="card-suit">
+                    <option value="hearts">♥</option>
+                    <option value="diamonds">♦</option>
+                    <option value="clubs">♣</option>
+                    <option value="spades">♠</option>
+                </select>
+            </div>
+            <div class="card">
+                <label for="card4">Card 4:</label>
+                <select id="card4" class="card-value">
+                    <option value="1">Ace</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">Jack</option>
+                    <option value="12">Queen</option>
+                    <option value="13">King</option>
+                </select>
+                <select id="suit4" class="card-suit">
+                    <option value="hearts">♥</option>
+                    <option value="diamonds">♦</option>
+                    <option value="clubs">♣</option>
+                    <option value="spades">♠</option>
+                </select>
+            </div>
+        </div>
+        <button onclick="revealFifthCard()">Reveal the Fifth Card</button>
+        <div class="result" id="fifth-card-result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
