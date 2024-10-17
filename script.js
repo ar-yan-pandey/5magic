@@ -16,7 +16,7 @@ function revealFifthCard() {
     else if (min === values[0] && max === values[1] && mid === values[2]) x = 2;
     else if (mid === values[0] && min === values[1] && max === values[2]) x = 3;
     else if (mid === values[0] && max === values[1] && min === values[2]) x = 4;
-    else if (max === values[0] && min === values[1] && max === values[2]) x = 5;
+    else if (max === values[0] && min === values[1] && mid === values[2]) x = 5;
     else if (max === values[0] && mid === values[1] && min === values[2]) x = 6;
 
     const predictedValue = (fourthCardValue + x - 1) % 13 + 1;
